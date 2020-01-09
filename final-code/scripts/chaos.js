@@ -1,3 +1,4 @@
+//  code based on p5.js documentation website
 let img;
 
 function preload() {

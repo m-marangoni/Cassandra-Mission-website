@@ -1,3 +1,5 @@
+//code based on SuperHi tutorial about experimental javascript https://www.superhi.com/
+
 const renderer = new THREE.WebGLRenderer({
   antialias: true
 })

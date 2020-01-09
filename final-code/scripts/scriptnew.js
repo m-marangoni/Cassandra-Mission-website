@@ -47,8 +47,8 @@ var message;
 
 if(visit == 1) 
 console.log =" Hello, visitor.";
-if(visit >= 2)
-window.location.replace('/nothing.html'); 
+if(visit >= 3)
+window.location.replace('/'); 
 return false;
 
 // message="  nothing to see here";

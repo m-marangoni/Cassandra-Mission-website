@@ -14,8 +14,6 @@ function setup() {
 
 function draw() {
   fill(0);
-  // x =  rad * sin(theta)
-  // y = rad * cos(theta)
   push();
   translate(windowWidth / 2, windowHeight / 2);
   xCoord = rad * cos(theta);

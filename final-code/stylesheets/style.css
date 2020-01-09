@@ -226,7 +226,23 @@ body {
 	/* Opera < 12.1 */
 	animation: fadein 2s;
 }
-
+.display2 {
+	color: whitesmoke;
+	font-family: "Messapia";
+	margin: auto;
+	/* Important */
+	text-align: center;
+	font-size: 0.8vw;
+	line-height: 1.6;
+	max-width: 30%;	
+	margin-top: 10%;
+	margin-right: 15%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
 
 footer {
 	position: fixed;
