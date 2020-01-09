@@ -1,4 +1,4 @@
-//  code based on p5.js documentation website
+//  code based on p5.js documentation by Daniel Shiffman https://p5js.org/examples/color-brightness.html
 let img;
 
 function preload() {

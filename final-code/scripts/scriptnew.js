@@ -1,5 +1,5 @@
 
-//original code credit: Bill Dortch. below code modified and adapted from http://www.javascriptkit.com/script/script2/visitorinfo.shtml
+// original code credit: Bill Dortch. below code modified and adapted from http://www.javascriptkit.com/script/script2/visitorinfo.shtml
 
 function getCookieVal (offset) {
 var endstr = document.cookie.indexOf (";", offset);

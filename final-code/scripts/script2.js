@@ -1,3 +1,5 @@
+// Jquery Parallax code edited from http://jsfiddle.net/q8Z6m/1/
+
 var currentX = '';
 var currentY = '';
 var movementConstant = .015;
