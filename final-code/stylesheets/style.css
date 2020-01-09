@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+
+
+
+body {
+	line-height: 1;
+
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+	background-color: black;
+	overflow: hidden;
+
+
+}
+
+
+#image-1 {
+	max-width: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#popup {
+	position: absolute;
+
+}
+
+#popup2 {
+	position: absolute;
+	margin: 5px;
+
+}
+
+.text-divs {
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	margin: auto;
+}
+
+.eye-logo {
+	z-index: 100;
+	position: absolute;
+	width: 100vw;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+}
+
+.hover01 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover01:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.logo {
+	margin-top: 2vh;
+	max-width: 100px;
+}
+
+.display {
+	color: whitesmoke;
+	font-family: "Messapia";
+	font-size: 9vw;
+	margin: auto;
+	/* Important */
+	text-align: center;
+	text-shadow: 0px 0px 20px rgb(0, 0, 0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-animation: fadein 2s;
+	/* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s;
+	/* Firefox < 16 */
+	-ms-animation: fadein 2s;
+	/* Internet Explorer */
+	-o-animation: fadein 2s;
+	/* Opera < 12.1 */
+	animation: fadein 2s;
+}
+
+
+footer {
+	position: fixed;
+	font-family: "MHTIROGLA";
+	left: 0;
+	bottom: 2vh;
+	width: 100%;
+	text-align: center;
+
+
+}
+
+.scroll {
+	animation: MoveUpDown 2s linear infinite;
+
+	position: relative;
+	display: inline-block;
+	color: whitesmoke;
+
+	font-size: 1.5vw;
+	margin: auto;
+	/* Important */
+	text-align: center;
+}
+
+
+@keyframes MoveUpDown {
+
+	0%,
+	100% {
+		bottom: 0;
+	}
+
+	50% {
+		bottom: 20px;
+	}
+}
+
+
+
+
+.fade-out {
+	animation: fadeOut ease 30s alternate infinite;
+	-webkit-animation: fadeOut ease 30s alternate infinite;
+	-moz-animation: fadeOut ease 30s alternate infinite;
+	-o-animation: fadeOut ease 30s alternate infinite;
+	-ms-animation: fadeOut ease 30s alternate infinite;
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-o-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.button {
+	background-color: rgb(26, 26, 26);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
